@@ -1,0 +1,42 @@
+.cabecalho {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.cabecalho_buscar {
+    margin-left: 2rem;
+    margin-right: 50rem;
+    width: 300px;
+    height: 4px;
+    border-radius: 25px;
+    border: none;
+    background-color: #F5F5F5;
+    padding-left:2rem;
+    height: 48px;
+    background-image:url(../image/Vector.png);
+    background-repeat: no-repeat;
+    background-position: 15rem;
+    
+}
+
+.cabecalho_login {
+    font-size:20px;
+    height: 19px;
+    width: 42px;
+    border:1px solid #2A7AE4;
+    color: #2A7AE4;
+    padding: 0.7rem 4rem 1.8rem 4rem;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho_login:hover {
+    transform: scale(1.2)
+}
