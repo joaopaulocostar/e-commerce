@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="style/cabecalho.css">
     <link rel="stylesheet" href="style/card.css">
     <link rel="stylesheet" href="style/section1.css">
+    <link rel="stylesheet" href="style/formulario.css">
+    <link rel="stylesheet" href="style/rodape.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&amp;display=swap" rel="stylesheet">
 </head>
 <body>
@@ -159,5 +161,35 @@
             </li>           
         </ul>
     </section>
+    <section  class=" contato"> 
+        <img class="formulario_imagem" src="image/Logo.png" alt="Logo">       
+        <form class="form">      
+            <div class="formulario_link">
+                <a class="links"href="">Quem somos</a>
+                <a class="links" href="">Política de Privacidade</a>
+                <a class="links" href="">Programa de Fidelidade</a>
+                <a class="links" href="">Nossas Lojas</a>
+                <a class="links" href="">Quer ser um Franquiado?</a>
+                <a class="links" href="">Anuncie Aquí</a>
+            </div>
+            <div class="formulario">
+                <div class="formulario__container">
+                    <h3 class="titulo">Fale Conosco</h3> 
+                    <input class="formulario__input" id="nome" name="nome" type="text" placeholder="Seu nome" required>
+                </div>
+                <div class="formulario__container">
+                    <textarea class="formulario__input-mensagem" name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Sua mensagem" required></textarea>
+                </div>
+                <button class="formulario__botao" id="enviar" type="submit">Enviar</button>                 
+            </div>                          
+                
+            
+        </form>
+    </section>
+    <footer class="rodape">
+        <p class="rodape_texto">	
+            &#169;Desenvolvido por João Paulo / Oracle One</p>
+        <p class="rodape_texto">2022</p>
+    </footer>
 </body>
 </html>
