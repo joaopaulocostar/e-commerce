@@ -1,0 +1,231 @@
+@charset "UTF-8";
+
+@media screen and (max-width:600px){
+    .cabecalho{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 1em;
+    }
+
+    .cabecalho_buscar {
+        display: none;
+    }
+
+    .cabecalho_login {
+        border: 1px solid #2A7AE4;
+        color: #2A7AE4;
+        padding: 1rem;
+        text-decoration: none;
+    }
+
+    .card {
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 60vw;
+        margin-top: 2em;
+        padding-top: 4em;
+        padding-left: 1em;
+    }
+
+    .card_titulo {
+        font-size: 1.5em;
+        font-weight: 700;
+        color: #FFFFFF;
+        margin-bottom: 0.3em;
+    }
+
+    .card_texto {
+        font-size: 1em;
+        font-weight: 700;
+        color: #FFFFFF;
+    
+    }
+
+    .card_botao {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        color: aliceblue;
+        padding: 16px;
+        gap: 10px;
+        width: 129px;
+        height: 51px;
+        text-decoration: none;
+        background: #2A7AE4;
+    
+    }
+
+    .secao {
+        padding-top: 2em;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .secao_informacao {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .secao_titulo {
+        width: 2em;
+        height: 1em;
+        font-weight: 700;
+        font-size: 1.5em;
+        line-height: 1em;
+        color: #464646;
+        display: inline;       
+    }
+
+    .secao_link {
+        height: 19px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        text-decoration: none;
+        color: #2A7AE4;
+     }
+
+     .secao_lista {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-inline-start: 3%;
+    }
+
+    .secao_item {
+        width: 50%;
+        margin-bottom: 1em;
+    }
+
+    .item_nome {
+        width: 176px;
+        height: 16px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #464646;
+    }
+    
+    .item_preco {
+        width: 176px;
+        height: 19px;
+    
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: #464646;
+    }
+    
+    .item_link{
+        width: 100px;
+        height: 19px;
+        text-decoration: none;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: #2A7AE4;
+    }
+
+    .contato{
+        background: #EAF2FD;
+        margin-top: 5rem;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 10%;
+        padding-right: 10%; 
+        padding-bottom: 2rem;  
+    }
+
+    .formulario_imagem{
+        margin-left: 20%;
+    }
+
+    .formulario{
+        text-align:center;
+    }
+
+    .titulo{
+        text-align: center;
+        height: 19px;
+        font-weight: 700;
+        font-size: 1em;
+        line-height: 19px;
+        color: #464646;
+    }
+
+    .formulario__input{
+        margin-bottom: 1em;
+        width: 10em;
+        height: 2em;
+        background: #FFFFFF;
+        border: none;
+        border-radius: 4px;
+        padding-left: 2rem;
+        font-size: 1em;
+    }
+
+    .formulario__input-mensagem{
+        width: 14em;
+        height: 4em;
+        background: #FFFFFF;
+        border-radius: 4px;
+        border: none;
+        font-size: 1em;
+        padding-top: 1rem;
+        padding-left: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .formulario__botao{
+        width: 101px;
+        height: 16px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+        padding: 1rem 2rem 2rem 2rem;
+        text-align: center;
+        background: #2A7AE4;
+        border: none;
+    }
+
+    .formulario_link{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    
+    .links{
+        text-decoration: none;
+        margin-bottom: 1rem;
+        color: #464646;
+    }
+
+    .rodape {
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-top: 1rem;
+        text-align: center;
+    }
+    
+    .rodape_texto {
+        margin-top: 0.2rem;
+        margin-bottom: 0;
+    }
+}
