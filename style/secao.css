@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+@media screen and (min-width:700px) {
+    .secao {
+        padding-top: 5em;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .secao_informacao {
+        margin-right: 5%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .secao_titulo {
+        width: 148px;
+        height: 38px;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38px;
+        color: #464646;
+        margin-left: 2.3rem;
+        margin-bottom: 2rem;
+        display: inline;   
+    }
+
+    .secao_lista {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-inline-start: 0%;
+        
+    }
+
+    .secao_item {
+        margin-bottom: 1em;
+    }
+
+    .secao_link {
+        text-decoration: none;
+        color: #2A7AE4;
+    }
+}
+
+@media screen and (min-width:880px, max-width:1320px){
+    
+}

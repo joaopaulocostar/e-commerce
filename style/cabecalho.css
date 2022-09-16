@@ -1,31 +1,41 @@
-@media screen and (max-width:607px) {
-    .cabecalho { 
-        width: 100vw;
+@charset "UTF-8";
+
+@media screen and (min-width:700px) {
+    .cabecalho{
+        padding-left: 12%;
+        padding-right: 12%;
+        align-items: center;
+        display: flex;
+        margin-top: 2em;
+        justify-content: space-between;
+        margin-bottom: 4em;
+    }
+
+    .cabecalho_buscar{
+        padding-top: 0.5em;
+        padding-left: 2em;
+        border: none;
+        background-color: #F5F5F5 ;
+        border-radius: 20px;
+        width: 272px;
+        height: 40px;
+        float: left;
+        margin-left: 15em;
+        position:absolute;
         
     }
 
-    
-}
-
-@media screen and (max-width:1900px) {
     .cabecalho_login {
         border: 1px solid #2A7AE4;
         color: #2A7AE4;
         padding: 1rem;
         text-decoration: none;
-       
+        position:relative;
+        float: right;
     }
 
-    .cabecalho {
-        width: 100vh;
-        padding-left: 10%;
-        padding-right: 10%;
-        padding-top: 3%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
-        
+    .cabecalho_login:hover {
+        transform: scale(1.2);
     }
 }
 

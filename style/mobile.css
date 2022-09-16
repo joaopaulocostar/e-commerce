@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (max-width:600px){
+@media screen and (max-width:700px){
     .cabecalho{
         display: flex;
         flex-direction: row;
@@ -68,7 +68,7 @@
     .secao_informacao {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        gap: 55%;
     }
 
     .secao_titulo {
@@ -95,12 +95,13 @@
         flex-direction: row;
         list-style: none;
         flex-wrap: wrap;
-        justify-content: space-around;
-        padding-inline-start: 3%;
+        gap: 3.5em;
+        padding-inline-start: 0%;
+        
     }
 
     .secao_item {
-        width: 50%;
+        width: 35%;
         margin-bottom: 1em;
     }
 
