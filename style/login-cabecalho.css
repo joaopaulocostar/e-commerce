@@ -1,0 +1,57 @@
+@charset "UTF-8";
+@media screen and (max-width: 700px) {
+    .cabecalho{
+        padding-left: 5%;
+        padding-right: 5%;
+        align-items: center;
+        display: flex;
+        margin-top: 2em;
+        justify-content: space-between;
+        margin-bottom: 4em;
+        height: 2vh;
+    }
+
+    .cabecalho_buscar{
+        display: none;
+        
+    }
+
+    .cabecalho_logo {
+        width: 8em;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .cabecalho{
+        padding-left: 5%;
+        padding-right: 5%;
+        align-items: center;
+        display: flex;
+        margin-top: 2em;
+        justify-content: space-between;
+        margin-bottom: 4em;
+        height: 2vh;
+    }
+
+    .cabecalho_buscar{
+        padding-top: 0.5em;
+        padding-left: 2em;
+        border: none;
+        background-color: #F5F5F5 ;
+        border-radius: 20px;
+        width: 272px;
+        height: 40px;
+        float: left;
+        margin-left: 15em;
+        position:absolute;
+        
+    }
+
+    .cabecalho_logo {
+        width: 8em;
+    }
+
+    .cabecalho_buscar-imagem {
+        display: none;
+    }
+}

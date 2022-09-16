@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style/base.css">
+    <link rel="stylesheet" href="style/login-cabecalho.css">
+    <link rel="stylesheet" href="style/login-secao.css">
+    <link rel="stylesheet" href="style/login-contato.css">
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+            <img class="cabecalho_logo" src="image/Logo.png" alt="logo AluraGeek">
+            <input class="cabecalho_buscar" type="text" placeholder="Buscar...">
+            <img class="cabecalho_buscar-imagem"src="image/Vector.png" alt="Logo buscar">
+        </div>
+    </header>
+    <section class="secao">
+        <div class="secao_block">
+            <h1 class="secao_titulo">Inicia Seção</h1>
+            <input class="secao_email" type="email" placeholder="Escreva seu Email" required>
+            <input class="secao_senha" type="password" placeholder="Escreva sua Senha" required>
+            <a class="secao_buttom" href="#">Enviar</a>
+        </div>        
+    </section>
+    <section  class=" contato"> 
+        <img class="formulario_imagem" src="image/Logo.png" alt="Logo">       
+        <form class="form">      
+            <div class="formulario_link">
+                <a class="links"href="">Quem somos</a>
+                <a class="links" href="">Política de Privacidade</a>
+                <a class="links" href="">Programa de Fidelidade</a>
+                <a class="links" href="">Nossas Lojas</a>
+                <a class="links" href="">Quer ser um Franquiado?</a>
+                <a class="links" href="">Anuncie Aquí</a>
+            </div>
+            <div class="formulario">
+                <div class="formulario__container">
+                    <h3 class="titulo">Fale Conosco</h3> 
+                    <input class="formulario__input" id="nome" name="nome" type="text" placeholder="Seu nome" required>
+                </div>
+                <div class="formulario__container">
+                    <textarea class="formulario__input-mensagem" name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Sua mensagem" required></textarea>
+                </div>
+                <button class="formulario__botao" id="enviar" type="submit">Enviar</button>                 
+            </div>                                  
+        </form>
+    </section>
+</body>
+</html>

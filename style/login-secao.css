@@ -1,0 +1,52 @@
+@charset "UTF-8";
+@media screen and (max-width: 1200px) {
+    .secao {
+        background-color: #F5F5F5;
+        padding-top: 4em;
+        padding-bottom: 4em; 
+        text-align: center;     
+    }
+
+    .secao_block {
+        display: flex;
+        font-family: 'Raleway';
+        flex-direction: column;
+        margin-left: 10%;
+        padding-right: 10%;
+        align-items: center;
+    }
+
+    .secao_titulo {  
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 19px;
+        color: #464646;
+    }
+
+    .secao_email, .secao_senha {
+        width: 20em;
+        height: 2.5em;
+        padding-left: 1em;
+        font-size: 0.9em;
+        border: none;
+        top: 204px;
+        background: #FFFFFF;
+        border-radius: 4px;
+        margin-bottom: 1.5em;
+    }
+    .secao_buttom{
+        width: 101px;
+        height: 16px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+        padding: 1rem 2rem 2rem 2rem;
+        text-align: center;
+        background: #2A7AE4;
+        border: none;
+    }
+
+}
