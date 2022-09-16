@@ -44,8 +44,43 @@
         text-decoration: none;
         color: #2A7AE4;
     }
-}
 
-@media screen and (min-width:880px, max-width:1320px){
+    .item_nome {
+        width: 176px;
+        height: 16px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #464646;
+    }
     
+    .item_preco {
+        width: 176px;
+        height: 19px;
+    
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: #464646;
+    }
+    
+    .item_link{
+        width: 100px;
+        height: 19px;
+        text-decoration: none;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: #2A7AE4;
+    }
+
+    .item_link:hover {
+        text-decoration: underline;
+    }
 }

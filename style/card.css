@@ -47,5 +47,8 @@
     
     }
     
-    .card_botao:hover {
-        transform: scale(1.2)
+    .card_botao:hover{
+        transform:scale(1.2);
+    }
+
+}
