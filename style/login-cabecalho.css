@@ -21,16 +21,15 @@
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 700px) {
     .cabecalho{
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 12%;
+        padding-right: 12%;
         align-items: center;
         display: flex;
         margin-top: 2em;
         justify-content: space-between;
         margin-bottom: 4em;
-        height: 2vh;
     }
 
     .cabecalho_buscar{
@@ -47,9 +46,7 @@
         
     }
 
-    .cabecalho_logo {
-        width: 8em;
-    }
+    
 
     .cabecalho_buscar-imagem {
         display: none;
